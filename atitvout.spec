@@ -3,7 +3,7 @@ Summary(pl):	Program do obs³ugi wyj¶cia TV-out w kartach ATI
 Name:		atitvout
 Version:	0.4
 Release:	0.1
-License:	GPL 
+License:	GPL
 Group:		Applications/Console
 Source0:	http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/%{name}-%{version}.tar.gz
 # Source0-md5:	f2915a435844aadcd4d8f9f62411283b
