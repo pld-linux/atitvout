@@ -1,4 +1,4 @@
-Summary:	Linux ATI TV Out support program	
+Summary:	Linux ATI TV-out support program	
 Summary(pl):	Program do obs³ugi wyj¶cia TV-out w kartach ATI
 Name:		atitvout
 Version:	0.4
