@@ -9,6 +9,7 @@ Source0:	http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/%{name}-
 # Source0-md5:	f2915a435844aadcd4d8f9f62411283b
 URL:		http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/
 BuildRequires:	sed >= 4.0
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,7 +26,8 @@ graficznych na uk³adach ATI.
 %build
 sed -i -e 's@-g -Wall@%{rpmcflags}@' lrmi-0.6/Makefile
 sed -i -e 's@-Wall -O2 -g@%{rpmcflags}@' Makefile
-%{__make} CC="%{__cc}" 
+%{__make} \
+	CC="%{__cc}" 
 
 %install
 rm -rf $RPM_BUILD_ROOT
