@@ -1,4 +1,4 @@
-Summary:	Linux ATI TV-out support program	
+Summary:	Linux ATI TV-out support program
 Summary(pl):	Program do obs³ugi wyj¶cia TV-out w kartach ATI
 Name:		atitvout
 Version:	0.4
@@ -28,7 +28,7 @@ graficznych na uk³adach ATI.
 sed -i -e 's@-g -Wall@%{rpmcflags}@' lrmi-0.6/Makefile
 sed -i -e 's@-Wall -O2 -g@%{rpmcflags}@' Makefile
 %{__make} \
-	CC="%{__cc}" 
+	CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
