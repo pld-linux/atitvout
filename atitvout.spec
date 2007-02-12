@@ -1,5 +1,5 @@
 Summary:	Linux ATI TV-out support program
-Summary(pl):	Program do obs³ugi wyj¶cia TV-out w kartach ATI
+Summary(pl.UTF-8):   Program do obsÅ‚ugi wyjÅ›cia TV-out w kartach ATI
 Name:		atitvout
 Version:	0.4
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This program allows to configure TV-out parameters in graphic cards
 based on ATI's chips.
 
-%description -l pl
-Program pozwalaj±cy ustawiaæ ró¿ne parametry wyj¶cia TV-out w kartach
-graficznych na uk³adach ATI.
+%description -l pl.UTF-8
+Program pozwalajÄ…cy ustawiaÄ‡ rÃ³Å¼ne parametry wyjÅ›cia TV-out w kartach
+graficznych na ukÅ‚adach ATI.
 
 %prep
 %setup -q -n %{name}
